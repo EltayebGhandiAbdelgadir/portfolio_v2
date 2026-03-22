@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="Eltayeb Ghandi — Cybersecurity & Computer Science Portfolio. CTF Player, Penetration Tester, Software Engineer." />
+    <meta name="keywords" content="cybersecurity, pentesting, CTF, computer science, ethical hacking, web security" />
+    <meta name="theme-color" content="#0b0b0b" />
+    
+    <title>Eltayeb Ghandi — Cybersecurity & Computer Science Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <canvas id="bg-canvas" aria-hidden="true"></canvas>
+    
+    <!-- Navigation -->
+    <nav class="nav" role="navigation" aria-label="Main navigation">
+        <div class="nav-inner">
+            <a class="brand" href="#home">ELTAYEB</a>
+            <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#achievements">Achievements</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#experience">Experience</a>
+                <a href="#certs">Certs</a>
+                <a href="#competitions">CTF & Hackathons</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="nav-indicator" aria-hidden="true"></div>
+            <div class="nav-actions">
+                <button id="theme-toggle" title="Toggle theme" aria-label="Toggle dark/light theme">���</button>
+                <a class="btn-outline" href="resume.pdf" download aria-label="Download resume PDF">Resume</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-offset">
+        <!-- Hero Section -->
+        <header id="home" class="hero section" role="banner">
+            <div class="hero-inner">
+                <div class="avatar">
+                    <img src="profile.png" alt="Eltayeb Ghandi profile photo" class="profile-pic" loading="lazy">
+                </div>
+                <div class="hero-copy">
+                    <h1 class="name">Eltayeb Ghandi</h1>
+                    <p class="title">Security Researcher & Penetration Tester</p>
+                    <p class="lede">
+                        Computer Science student at Lovely Professional University with a fervent passion for cybersecurity, ethical hacking, and penetration testing. I solve complex security challenges through offensive techniques, leveraging TryHackMe mastery and CTF competition prowess to build a career in professional cybersecurity.
+                    </p>
+                    <div class="hero-ctas">
+                        <a class="btn-primary" href="#projects">View My Work</a>
+                        <a class="btn-secondary" href="#contact">Get in Touch</a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-splash" aria-hidden="true">
+                <span class="dot dot-1"></span>
+                <span class="dot dot-2"></span>
+                <span class="dot dot-3"></span>
+                <span class="dot dot-4"></span>
+                <span class="dot dot-5"></span>
+            </div>
+        </header>
+
+        <!-- Achievements Section -->
+        <section id="achievements" class="section">
+            <h2>Quick Stats</h2>
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <div class="value">600+</div>
+                    <div class="label">Problems Solved</div>
+                </div>
+                <div class="achievement-card">
+                    <div class="value">50+</div>
+                    <div class="label">CTF Challenges</div>
+                </div>
+                <div class="achievement-card">
+                    <div class="value">1st</div>
+                    <div class="label">Hackathon Win</div>
+                </div>
+                <div class="achievement-card">
+                    <div class="value">4</div>
+                    <div class="label">Certifications</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>
+                I am a driven Computer Science student with a deep passion for cybersecurity and offensive security. My expertise spans penetration testing, web application security, and vulnerability analysis. I actively contribute to the cybersecurity community through CTF competitions and security research.
+            </p>
+            <p>
+                Beyond technical pursuits, I serve as Vice President of the Sudanese Students Association at LPU, fostering community engagement and cultural awareness among peers.
+            </p>
+            <ul class="about-list">
+                <li>
+                    <strong>▸ Education</strong>
+                    B.Tech CSE — Lovely Professional University (LPU)
+                </li>
+                <li>
+                    <strong>▸ Leadership</strong>
+                    Vice President, Sudanese Students Association (SSAOBU)
+                </li>
+                <li>
+                    <strong>▸ Specialization</strong>
+                    Offensive Security, Penetration Testing, Vulnerability Research
+                </li>
+            </ul>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <h2>Skills & Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-list">
+                        <div class="skill">
+                            <span>Python</span>
+                            <div class="bar"><span style="width:90%"></span></div>
+                        </div>
+                        <div class="skill">
+                            <span>JavaScript</span>
+                            <div class="bar"><span style="width:75%"></span></div>
+                        </div>
+                        <div class="skill">
+                            <span>Bash/Shell</span>
+                            <div class="bar"><span style="width:85%"></span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Security Expertise</h3>
+                    <div class="skill-list">
+                        <div class="skill">
+                            <span>Penetration Testing</span>
+                            <div class="bar"><span style="width:85%"></span></div>
+                        </div>
+                        <div class="skill">
+                            <span>Web App Security</span>
+                            <div class="bar"><span style="width:80%"></span></div>
+                        </div>
+                        <div class="skill">
+                            <span>CTF Challenges</span>
+                            <div class="bar"><span style="width:88%"></span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Security Tools</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Burp Suite Pro</span>
+                        <span class="tag">Kali Linux</span>
+                        <span class="tag">Metasploit</span>
+                        <span class="tag">Nmap</span>
+                        <span class="tag">Wireshark</span>
+                        <span class="tag">SQLmap</span>
+                        <span class="tag">Ghidra</span>
+                        <span class="tag">Hashcat</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Additional Skills</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Linux Administration</span>
+                        <span class="tag">Git & GitHub</span>
+                        <span class="tag">Docker</span>
+                        <span class="tag">Networking</span>
+                        <span class="tag">Cryptography</span>
+                        <span class="tag">API Security</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <h3>Security Labs & Automation Scripts</h3>
+                    <p class="proj-desc">
+                        Comprehensive collection of penetration testing labs, reconnaissance automation scripts, and detailed CTF challenge write-ups. Includes OSINT techniques, exploitation payloads, and privilege escalation methods.
+                    </p>
+                    <p class="proj-tech">
+                        <strong>Stack:</strong> Python • Bash • Metasploit • Nmap
+                    </p>
+                    <div class="proj-links">
+                        <a href="#" target="_blank">→ GitHub</a>
+                        <a href="#" target="_blank">→ Docs</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <h3>Hairstyle Recommendation AI</h3>
+                    <p class="proj-desc">
+                        Full-stack machine learning application that analyzes facial geometry to recommend personalized hairstyles. Built with computer vision and deep learning for image classification and style matching.
+                    </p>
+                    <p class="proj-tech">
+                        <strong>Stack:</strong> Python • Streamlit • OpenCV • TensorFlow
+                    </p>
+                    <div class="proj-links">
+                        <a href="#" target="_blank">→ GitHub</a>
+                        <a href="#" target="_blank">→ Demo</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <h3>Web Application Security Audits</h3>
+                    <p class="proj-desc">
+                        Professional-grade security audits of live web applications, identifying and documenting OWASP Top 10 vulnerabilities. Includes detailed remediation strategies and proof-of-concept demonstrations.
+                    </p>
+                    <p class="proj-tech">
+                        <strong>Stack:</strong> Burp Suite • OWASP ZAP • Protocols & APIs
+                    </p>
+                    <div class="proj-links">
+                        <a href="#" target="_blank">→ Reports</a>
+                        <a href="#" target="_blank">→ Case Studies</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <h2>Professional Experience</h2>
+            <div class="exp-list">
+                <div class="exp-item">
+                    <h4>Cloud Computing Intern</h4>
+                    <p class="muted">Acme Corp • Jun 2024 — Aug 2024</p>
+                    <ul>
+                        <li>Created separate EC2 instances for WordPress and MySQL, ensuring isolation and scalability.</li>
+                        <li>Deployed WordPress and MySQL on a single EC2 instance, focusing on a unified deployment model.</li>
+                    </ul>
+                </div>
+
+                
+
+                <div class="exp-item">
+                    <h4>CTF Enthusiast</h4>
+                    <p class="muted">LeetCode & TryHackMe • Ongoing</p>
+                    <ul>
+                        <li>Completed 50+ CTF challenges across multiple categories; ranked top 2% on TryHackMe.</li>
+                       
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Competitions & Hackathons -->
+        <section id="competitions" class="section">
+            <h2>Competitive Programming & Hackathons</h2>
+            <ul class="open-list">
+                
+                
+                <li>
+                    <strong>Legend Rank</strong> — TryHackMe CTF Competitions
+                    <br><span class="muted">50+ challenges completed; advanced techniques mastered</span>
+                </li>
+                
+            </ul>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certs" class="section">
+            <h2>Certifications & Courses</h2>
+            <p class="muted">Professional credentials and advanced training in cybersecurity and software engineering.</p>
+            <div class="cert-grid">
+                <button class="cert-thumb" data-title="Coursera — Machine Learning Specialization (2024)" aria-label="View Machine Learning certificate">
+                    <img src="Screenshot 2026-03-09 115558.png" alt="Machine Learning certificate" loading="lazy">
+                </button>
+                <button class="cert-thumb" data-title="Udemy — Web Developer Bootcamp (2023)" aria-label="View Web Developer certificate">
+                    <img src="Screenshot 2026-03-09 115630.png" alt="Web Developer Bootcamp certificate" loading="lazy">
+                </button>
+                <button class="cert-thumb" data-title="Offensive Security — Web App Security (2025)" aria-label="View Web App Security certificate">
+                    <img src="Screenshot 2026-03-09 115704.png" alt="Web App Security certificate" loading="lazy">
+                </button>
+                <button class="cert-thumb" data-title="Advanced Security Training — Pentesting (2025)" aria-label="View Pentesting certificate">
+                    <img src="Screenshot 2026-03-09 115755.png" alt="Pentesting certificate" loading="lazy">
+                </button>
+            </div>
+            <p class="muted" style="margin-top:20px;font-size:0.9rem;">Click any certificate thumbnail to enlarge and view details.</p>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h2>Get In Touch</h2>
+            <p>
+                I'm always interested in discussing cybersecurity challenges, innovative projects, and career opportunities. Feel free to reach out—I typically respond within 24-48 hours.
+            </p>
+            <div class="contact-grid">
+                <form id="contact-form" class="contact-form">
+                    <label for="name">Your Name *</label>
+                    <input id="name" name="name" type="text" required placeholder="John Doe" />
+                    
+                    <label for="email">Your Email *</label>
+                    <input id="email" name="email" type="email" required placeholder="you@example.com" />
+                    
+                    <label for="subject">Subject</label>
+                    <input id="subject" name="subject" type="text" placeholder="What's this about?" />
+                    
+                    <label for="message">Message *</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="Your message here..."></textarea>
+                    
+                    <button type="submit" class="btn-primary">Send Message</button>
+                </form>
+
+                <div class="contact-meta">
+                    <p>
+                        <strong>Email</strong>
+                        <a href="mailto:ghandi.learn@gmail.com">ghandi.learn@gmail.com</a>
+                    </p>
+                    <p>
+                        <strong>LinkedIn</strong>
+                        <a href="https://www.linkedin.com/in/eltayeb-ghandi-49347b23a/" target="_blank" rel="noopener">linkedin.com/in/eltayebghandi</a>
+                    </p>
+                    <p>
+                        <strong>GitHub</strong>
+                        <a href="https://github.com/EltayebGhandiAbdelgadir" target="_blank" rel="noopener">github.com/eltayebghandi</a>
+                    </p>
+                    <p>
+                        <strong>TryHackMe</strong>
+                        <a href="https://tryhackme.com/p/listekmnfs" target="_blank" rel="noopener">profile.tryhackme.com</a>
+                    </p>
+                    <p style="margin-top:24px;">
+                        <a class="btn-outline" href="resume.pdf" download>↓ Download Full Resume</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer" role="contentinfo">
+        <div class="footer-inner">
+            <div>
+                <p>&copy; 2026 Eltayeb Ghandi. All rights reserved.</p>
+                <p style="font-size:0.85rem;margin-top:4px;">Computer Science Student • Cybersecurity Enthusiast • Ethical Hacker</p>
+            </div>
+            <div class="social" aria-label="Social media links">
+                <a href="https://github.com/eltayebghandi" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a>
+                <a href="https://linkedin.com/in/eltayebghandi" target="_blank" rel="noopener" aria-label="LinkedIn">LinkedIn</a>
+                <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Twitter/X">Twitter</a>
+                <a href="mailto:eltayeb.ghandi@example.com" aria-label="Email">Email</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox for certificates -->
+    <div id="lightbox" class="lightbox" aria-hidden="true" role="dialog" aria-label="Certificate viewer">
+        <div class="lightbox-inner">
+            <button class="lightbox-close" aria-label="Close certificate viewer">×</button>
+            <img id="lightbox-img" src="" alt="" loading="lazy" />
+            <p id="lightbox-caption"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
